@@ -1,6 +1,6 @@
 
 
-# HyperMamba: A Spectral-Spatial Adaptive Mamba for Hyperspectral Image Classification
+# MCFNet: Multiscale Cross-domain Fusion Network for HSI and LiDAR Data Joint Classification
 
 
 <div align="center">
