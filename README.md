@@ -4,7 +4,7 @@
 
 
 <div align="center">
-    <img src="figure/framework.png" alt="framework" width="800"/>
+    <img src="figures/MCFNet.png" alt="framework" width="800"/>
 </div>
 
 
