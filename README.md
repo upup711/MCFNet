@@ -27,6 +27,6 @@ python demo.py
 
 ## Acknowledgment
 
-This code is mainly built upon [GLT](https://github.com/chenning0115/SQSFormer) and [FDNet](https://github.com/MzeroMiko/VMamba) repositories.
+This code is mainly built upon [GLT]((https://github.com/Ding-Kexin/IEEE_TGRS_GLT-Net) and [FDNet](https://github.com/RSIP-NJUPT/FDNet.git) repositories.
 
 
