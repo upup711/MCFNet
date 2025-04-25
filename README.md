@@ -1,7 +1,8 @@
 
 
-# Data and Code for MCFNet
+# MCFNet
 
+Our model was implemented using PyTorch 2.3.1+cu118 with Python 3.11 and trained on an NVIDIA A800-SXM4-80GB GPU.
 
 <div align="center">
     <img src="MCFNet.png" alt="framework" width="800"/>
