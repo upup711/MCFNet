@@ -4,7 +4,7 @@
 
 
 <div align="center">
-    <img src="figures/MCFNet.png" alt="framework" width="800"/>
+    <img src="MCFNet.png" alt="framework" width="800"/>
 </div>
 
 
@@ -28,8 +28,8 @@ python demo.py
 ## Citation
 
 
-## Acknowledgment
+# Acknowledgment
 
 This code is mainly built upon [GLT](https://github.com/Ding-Kexin/IEEE_TGRS_GLT-Net) and [FDNet](https://github.com/RSIP-NJUPT/FDNet.git) repositories.
-
+###👉Data:
 
