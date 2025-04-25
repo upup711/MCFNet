@@ -1,19 +1,19 @@
 
 
-# MCFNet: Multiscale Cross-domain Fusion Network for HSI and LiDAR Data Joint Classification
+# Data and Code for MCFNet
 
 
 <div align="center">
     <img src="MCFNet.png" alt="framework" width="800"/>
 </div>
 
-# 👉 Data
+## 👉 Data
 
 
 
-# Getting Started
+## Getting Started
 
-## 🍀: Environment Setup:
+### 🍀: Environment Setup:
 
 To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment
 
@@ -25,13 +25,13 @@ pip install -r requirements.txt
 
 pip install PyWavelets
 
-## 🌸: Run
+### 🌸: Run
 python demo.py
 
-## 🌿: Citation
+### 🌿: Citation
 
 
-# Acknowledgment
+## Acknowledgment
 
 This code is mainly built upon [GLT](https://github.com/Ding-Kexin/IEEE_TGRS_GLT-Net) and [FDNet](https://github.com/RSIP-NJUPT/FDNet.git) repositories.
 
