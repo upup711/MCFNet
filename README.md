@@ -26,18 +26,13 @@ We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/D
 
 ### Environment Setup
 
-To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment。
-
-'''bash
+To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment.
 
 > conda create -n mcfnet python==3.11
-
 > conda activate mcfnet
-
 > pip install -r requirements.txt
-
 > pip install PyWavelets
-'''
+
 
 ### Run
 python demo.py
