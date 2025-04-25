@@ -12,17 +12,19 @@ Our model was trained on an NVIDIA A800-SXM4-80GB GPU.
 
 ## 👉 Data
 
-* [Houston](https://hyperspectral.ee.uh.edu/)
+We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/Ding-Kexin/IF_CALC/blob/main/Model/index_2_data.py) implementation and adopted the average results across these iterations as the final reported outcomes in our study.
 
-* [MUUFL](https://github.com/GatorSense/MUUFLGulfport/)
+    * [Houston](https://hyperspectral.ee.uh.edu/)
 
-* [Trento](https://github.com/danfenghong/IEEE_GRSL_EndNet/blob/master/README.md)
+    * [MUUFL](https://github.com/GatorSense/MUUFLGulfport/)
+
+    * [Trento](https://github.com/danfenghong/IEEE_GRSL_EndNet/blob/master/README.md)
 
 
 
 ## Getting Started
 
-### 🍀: Environment Setup:
+### 🍀: Environment Setup
 
 To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment
 
