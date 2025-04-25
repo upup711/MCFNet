@@ -14,11 +14,11 @@ Our model was trained on an NVIDIA A800-SXM4-80GB GPU.
 
 We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/Ding-Kexin/IF_CALC/blob/main/Model/index_2_data.py) implementation and adopted the average results across these iterations as the final reported outcomes in our study.
 
-     [Houston](https://hyperspectral.ee.uh.edu/)
+* [Houston](https://hyperspectral.ee.uh.edu/)
 
-     [MUUFL](https://github.com/GatorSense/MUUFLGulfport/)
+* [MUUFL](https://github.com/GatorSense/MUUFLGulfport/)
 
-     [Trento](https://github.com/danfenghong/IEEE_GRSL_EndNet/blob/master/README.md)
+* [Trento](https://github.com/danfenghong/IEEE_GRSL_EndNet/blob/master/README.md)
 
 
 
