@@ -20,7 +20,13 @@ We conducted 10 distinct data partitions based on [IF_CALC](https://github.com/D
 
 * [Trento](https://github.com/danfenghong/IEEE_GRSL_EndNet/blob/master/README.md)
 
+## 🌈 Results
 
+| Dataset  | OA (%) | AA (%) | Kappa (%) |
+|----------|--------:|--------:|----------:|
+| Houston |  95.43 |  96.09 |    95.06  |
+| MUUFL   |  85.97 |  82.11 |    81.80  |
+| Trento  |  99.40 |  98.84 |    99.20  |
 
 ## 🌿 Getting Started
 
