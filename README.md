@@ -43,7 +43,7 @@ To get started, we recommend setting up a conda environment and installing depen
     pip install PyWavelets
 
 
-### Run
+### Train and Test
     python demo.py
 
 ### Citation
