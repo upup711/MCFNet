@@ -48,7 +48,7 @@ To get started, we recommend setting up a conda environment and installing depen
 
 ### Citation
 
-We sincerely apologize for the partial code availability (MCFNet.py) at this stage. The remaining code files will be fully released upon formal acceptance of the paper.
+We sincerely apologize for the partial code availability (MCFNet.py and FDFA.py) at this stage. The remaining code files will be fully released upon formal acceptance of the paper.
 
 ## 🌸 Acknowledgment
 
