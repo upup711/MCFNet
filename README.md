@@ -10,7 +10,7 @@
 
 # Getting Started
 
-## 🍀step1: Environment Setup:
+## 🍀: Environment Setup:
 
 To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment
 
@@ -22,7 +22,7 @@ pip install -r requirements.txt
 
 pip install PyWavelets
 
-## step2: Run
+## 🌸: Run
 python demo.py
 
 ## Citation
