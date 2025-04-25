@@ -37,10 +37,10 @@ To get started, we recommend setting up a conda environment and installing depen
     pip install PyWavelets
 
 
-    ### Run
+### Run
     python demo.py
 
-    ### Citation
+### Citation
 
 
 ## 🌸 Acknowledgment
