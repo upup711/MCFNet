@@ -10,7 +10,7 @@
 
 # Getting Started
 
-## step1: Environment Setup:
+## 🍀step1: Environment Setup:
 
 To get started, we recommend setting up a conda environment and installing dependencies via pip. Use the following commands to set up your environment
 
