@@ -22,32 +22,32 @@ def train_1times(number):
 # setup_seed(args.seed)
     if args.dataset == 'Houston':
         num_classes = 15
-        DataPath1 = './mofeng/work3/code/MCFNet/data/Houston/Houston.mat'
-        DataPath2 = './mofeng/work3/code/MCFNet/data/Houston/LiDAR.mat'
-        LabelPath_10TIMES = './mofeng/mofeng/Desktop/work3/code/MCFNet/data/Houston/20/train_test_gt_{}.mat'.format(number)
+        DataPath1 = './mf/work3/code/MCFNet/data/Houston/Houston.mat'
+        DataPath2 = './mf/work3/code/MCFNet/data/Houston/LiDAR.mat'
+        LabelPath_10TIMES = './mf/work3/code/MCFNet/data/Houston/20/train_test_gt_{}.mat'.format(number)
         Data1 = loadmat(DataPath1)['img']
         Data2 = loadmat(DataPath2)['img']
     elif args.dataset == 'Augsburg':
         num_classes = 7
-        DataPath1 = './mofeng/work3/code/MCFNet/data/Augsburg/data_HS_LR.mat'
-        DataPath2 = './mofeng/work3/code/MCFNet/data/Augsburg/data_DSM.mat'
+        DataPath1 = './mf/work3/code/MCFNet/data/Augsburg/data_HS_LR.mat'
+        DataPath2 = './mf/work3/code/MCFNet/data/Augsburg/data_DSM.mat'
         Data1 = loadmat(DataPath1)['data_HS_LR']
         Data2 = loadmat(DataPath2)['data_DSM']
-        LabelPath_10TIMES = './mofeng/work3/code/MCFNet/data/Augsburg/20/train_test_gt_{}.mat'.format(number)
+        LabelPath_10TIMES = './mf/work3/code/MCFNet/data/Augsburg/20/train_test_gt_{}.mat'.format(number)
     elif args.dataset == 'Muufl':
         num_classes = 11
-        DataPath1 = './mofeng/work3/code/MCFNet/data/Muufl/hsi.mat'
-        DataPath2 = './mofeng/work3/code/MCFNet/data/Muufl/lidar_DEM.mat'
+        DataPath1 = './mf/work3/code/MCFNet/data/Muufl/hsi.mat'
+        DataPath2 = './mf/work3/code/MCFNet/data/Muufl/lidar_DEM.mat'
         Data1 = loadmat(DataPath1)['hsi']
         Data2 = loadmat(DataPath2)['lidar']
-        LabelPath_10TIMES = './mofeng/work3/code/MCFNet/data/Muufl/20/train_test_gt_{}.mat'.format(number)
+        LabelPath_10TIMES = './mf/work3/code/MCFNet/data/Muufl/20/train_test_gt_{}.mat'.format(number)
     elif args.dataset == 'Trento':
         num_classes = 9
-        DataPath1 = './mofeng/work3/code/MCFNet/data/Trento/HSI.mat'
-        DataPath2 = './mofeng/work3/code/MCFNet/data/Trento/LiDAR.mat'
+        DataPath1 = './mf/work3/code/MCFNet/data/Trento/HSI.mat'
+        DataPath2 = './mf/work3/code/MCFNet/data/Trento/LiDAR.mat'
         Data1 = loadmat(DataPath1)['HSI']
         Data2 = loadmat(DataPath2)['LiDAR']
-        LabelPath_10TIMES = './mofeng/work3/code/MCFNet/data/Trento/20/train_test_gt_{}.mat'.format(number)
+        LabelPath_10TIMES = './mf/work3/code/MCFNet/data/Trento/20/train_test_gt_{}.mat'.format(number)
     else:
         raise "Requires correct dataset name!"
     
